@@ -64,7 +64,7 @@
             "name": "constant.language.gml-gm81"
         },
         {
-            "begin": "\\b(((global)?var)|(enum))\\b",
+            "begin": "\\b(((global)?var)|(enum)|(function)\\b",
             "beginCaptures": {
                 "1": {
                     "name": "storage.type.gml-gm81"
@@ -79,7 +79,7 @@
         },
         {
             "match": "(?i)\\b(global|local|self|other)\\b",
-            "name": "varable.language.gml-gm81"
+            "name": "variable.language.gml-gm81"
         },
         {
             "match": "(?i)\\b((obj|scr|spr|rm)_\\w+)\\b",
