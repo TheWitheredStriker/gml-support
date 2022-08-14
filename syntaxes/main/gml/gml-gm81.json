@@ -44,7 +44,7 @@
             "name": "constant.numeric.gml-gm81"
         },
         {
-            "match": "(?i)\\b(if|else|switch|case|default|break|for|repeat|while|do|until|continue|exit|return|with|begin|end)\\b",
+            "match": "(?i)\\b(if|else|switch|case|default|break|for|repeat|while|do|until|continue|exit|return|with|begin|end|then)\\b",
             "name": "keyword.control.gml-gm81"
         },
         {
