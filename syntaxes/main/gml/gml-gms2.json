@@ -59,7 +59,7 @@
          "name": "keyword.operator.word.gml"
       },
       {
-         "match": ";|,|\\(|\\)|\\{|\\}|\\.",
+         "match": ";|,|\\(|\\)|\\{|\\}|\\.|\\b(try|catch|finally|throw|new|delete)",
          "name": "keyword.other.gml"
       },
       {
@@ -67,7 +67,7 @@
          "name": "constant.language.gml"
       },
       {
-         "begin": "\\b(((global)?var)|(enum)|(function))\\b",
+         "begin": "\\b(((global)?var)|(enum)|(function)|(static)|(constructor))\\b",
          "beginCaptures": {
            "1": {
              "name": "storage.type.gml"
