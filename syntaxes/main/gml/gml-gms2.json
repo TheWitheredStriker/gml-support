@@ -59,7 +59,7 @@
          "name": "keyword.operator.word.gml"
       },
       {
-         "match": ";|,|\\(|\\)|\\{|\\}|\\.|\\b(try|catch|finally|throw|new|delete)",
+         "match": ";|,|\\(|\\)|\\{|\\}|\\.|\\b(try|catch|finally|throw|new|delete)|#\\b(macro)",
          "name": "keyword.other.gml"
       },
       {
